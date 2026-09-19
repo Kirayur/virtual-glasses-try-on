@@ -6,7 +6,7 @@
 
 ## Пример
 
-| Вход | Геометрическая примерка | Диффузионная доработка |
+| Вход | Геометрическая примерка | Диффузионная доработка дужек |
 |---|---|---|
 | ![Input face](examples/input/face.jpg) | ![Geometric try-on](examples/output/geometric_tryon.jpg) | ![Diffusion-refined try-on](examples/output/diffusion_refined.jpg) |
 
@@ -80,7 +80,7 @@ python diffusion_refine.py \
   --original examples/input/face.jpg \
   --composed result.jpg \
   --out result_refined.jpg \
-  --mode glasses --low-vram
+  --mode temples_only --low-vram
 ```
 
 Флаг `--all` запускает все четыре режима маски.
