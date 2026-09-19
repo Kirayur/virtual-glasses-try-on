@@ -1,0 +1,8 @@
+-r requirements.txt
+accelerate
+diffusers
+pillow
+protobuf
+sentencepiece
+torch
+transformers
